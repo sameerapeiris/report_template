@@ -1,0 +1,165 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script src="ttps://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script src="ttps://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+  </head>
+  <body>
+    <style>
+      .inner-wrap {
+        border: 1px solid #e4e4e4;
+      }
+      .invoice-header {
+        padding: 15px 15px;
+        background-color: rgb(228, 228, 228);
+        margin-bottom: 25px;
+      }
+      .invoice-header h3,
+      .invoice-header p {
+        margin: 0px;
+      }
+      .invoice-header h3 {
+        text-transform: uppercase;
+      }
+      .invoice-header p {
+        position: relative;
+        top: 5px;
+        font-weight: bold;
+      }
+      .invoice-header p span,
+      .invoice-footer p span {
+        font-weight: normal;
+      }
+      .invoice-footer p {
+        font-weight: bold;
+      }
+      .invoice-btm {
+        padding: 0px 15px;
+      }
+    </style>
+    <div class="invoice-wrapper">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="inner-wrap">
+              <div class="col-sm-12 p-0">
+                <div class="invoice-header">
+                  <div class="row">
+                    <div class="col-sm-3"><h3>Invoicing</h3></div>
+                    <div class="col-sm-3">
+                      <p>Date : <span>01/02/2020</span></p>
+                    </div>
+                    <div class="col-sm-3">
+                      <p>Time : <span>9.30 A.M.</span></p>
+                    </div>
+                    <div class="col-sm-3">
+                      <p>User : <span>User Name</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="invoice-btm">
+                <div class="col-sm-12">
+                  <div class="table-search-input">
+                    <form class="form-inline">
+                      <div class="form-group col-sm-6 p-0 mr-3 mb-2">
+                        <input
+                          type="text"
+                          class="form-control w-100"
+                          id="inputPassword2"
+                          placeholder="Barcode / Product ID"
+                        />
+                      </div>
+                      <button type="submit" class="btn btn-primary mb-2">
+                        Search
+                      </button>
+                    </form>
+                  </div>
+                </div>
+
+                <div class="col-sm-12">
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th scope="col">No</th>
+                        <th scope="col">Product</th>
+                        <th scope="col">quantity</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Discount</th>
+                        <th scope="col">Sub Total</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="col-sm-12">
+                  <div class="invoice-footer">
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <p>Bill Total Rs : <span>5000.00</span></p>
+                        <p>Total Discount Rs: <span>250.00</span></p>
+                        <p>Sub Discount Rs: <span>50.00</span></p>
+                      </div>
+                      <div class="col-sm-6">
+                        <p>Payment type : <span>Card</span></p>
+                        <p>Payment Rs : <span>5000.00</span></p>
+                        <p>Balance Rs : <span>300.00</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
