@@ -1,2 +1,2 @@
 # report_template
-Invoice template for POS system
+Simple HTML Invoice template for POS system
